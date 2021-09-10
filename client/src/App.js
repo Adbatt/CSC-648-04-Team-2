@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home';
-import AboutIslom from './components/Islom/AboutIslom';
+import AboutIslom from './components/AboutIslom';
 
 export default function App() {
   return (
