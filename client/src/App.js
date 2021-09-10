@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home';
 import AboutIslom from './components/AboutIslom';
+import AboutKyle from "./components/AboutKyle";
 
 export default function App() {
   return (
@@ -20,7 +21,9 @@ export default function App() {
             <li>
               <Link to="/islom">Islombek Abdulakhatov - SCRUM Master</Link>
             </li>
-            
+            <li>
+              <Link to="/kyle">Kyle Gilbert - Backend Lead</Link>
+            </li>
           </ul>
         </nav>
 
@@ -30,7 +33,9 @@ export default function App() {
           <Route path="/islom">
             <AboutIslom />
           </Route>
-          
+          <Route path="/kyle">
+            <AboutKyle />
+          </Route>  
           <Route path="/">
             <Home />
           </Route>
