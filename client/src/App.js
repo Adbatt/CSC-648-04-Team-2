@@ -8,6 +8,7 @@ import {
 import Home from './components/Home';
 import AboutIslom from './components/AboutIslom';
 import AboutKyle from "./components/AboutKyle";
+import AboutJib from "./components/AboutJib";
 
 export default function App() {
   return (
@@ -24,12 +25,18 @@ export default function App() {
             <li>
               <Link to="/kyle">Kyle Gilbert - Backend Lead</Link>
             </li>
+            <li>
+              <Link to="/jib">Jibraeel Abdelwahhab - Team Member</Link>
+            </li>
           </ul>
         </nav>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
+        <Route path="/jib">
+            <AboutJib />
+          </Route>
           <Route path="/islom">
             <AboutIslom />
           </Route>
