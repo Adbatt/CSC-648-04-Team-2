@@ -1,5 +1,5 @@
 import '../styles/Theme.css';
-import AboutIslom from './Islom/AboutIslom';
+
 function Home() {
 
     return (
