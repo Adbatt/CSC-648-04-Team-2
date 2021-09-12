@@ -13,18 +13,5 @@ function AboutAlvin() {
         </div>
     )
 }
-// class Table extends Component{
-//     render(){
-//         return (
-//             <div>
-//                   <h1>Islombek Abdulakhatov cacasc</h1>
-//                 <Avatar
-//                 className="table_avatar"
-//                 src="../components/Islom/Islom.jpg"
-//                 />
-//             </div>
-//         )
-//     }
-// }
 
 export default AboutAlvin;
