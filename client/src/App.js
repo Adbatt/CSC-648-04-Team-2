@@ -10,35 +10,21 @@ import AboutIslom from './components/AboutIslom';
 import AboutKyle from "./components/AboutKyle";
 import AboutJib from "./components/AboutJib";
 import AboutAlvin from "./components/AboutAlvin";
+import AboutFaisal from "./components/AboutFaisal";
 
 export default function App() {
   return (
     <Router>
       <div>
         <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/islom">Islombek Abdulakhatov - SCRUM Master</Link>
-            </li>
-            <li>
-              <Link to="/kyle">Kyle Gilbert - Backend Lead</Link>
-            </li>
-            <li>
-              <Link to="/jib">Jibraeel Abdelwahhab - Team Member</Link>
-            </li>
-            <li>
-              <Link to = "/alvin">Alvin To - Team Member</Link>
-            </li>
-          </ul>
+          <Link to="/">Home</Link>
         </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
-        <Route path="/jib">
+          <Route path="/faisal"> 
+            <AboutFaisal />
+          </Route>
+          <Route path="/jib">
             <AboutJib />
           </Route>
           <Route path="/islom">
@@ -49,7 +35,7 @@ export default function App() {
           </Route>
           <Route path="/alvin">
             <AboutAlvin />
-          </Route>  
+          </Route>
           <Route path="/">
             <Home />
           </Route>

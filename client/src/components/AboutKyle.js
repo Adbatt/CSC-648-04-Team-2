@@ -13,7 +13,6 @@ function AboutKyle() {
                 is a normal photo of me.
             </p>
             <img src={KyleImage} alt="pic" height="500px" width="375px"/>
-            {/* About us page can either be here or on a separate page */}
         </div>
     );
 }
