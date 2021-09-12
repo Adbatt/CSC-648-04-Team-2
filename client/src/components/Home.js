@@ -4,7 +4,7 @@ function Home() {
 
     return (
         <div>
-            <h1 className="header">Software Engineering class SFSU</h1>
+            <h1 className="header">CSC 648 Software Engineering class SFSU</h1>
             <h1 className="header">Fall 2021</h1>
             <h1 className="header">Section 04</h1>
             <h1 className="header">Team 02</h1>

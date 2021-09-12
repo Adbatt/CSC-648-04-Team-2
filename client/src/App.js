@@ -9,6 +9,7 @@ import Home from './components/Home';
 import AboutIslom from './components/AboutIslom';
 import AboutKyle from "./components/AboutKyle";
 import AboutJib from "./components/AboutJib";
+import AboutAlvin from "./components/AboutAlvin";
 
 export default function App() {
   return (
@@ -28,6 +29,9 @@ export default function App() {
             <li>
               <Link to="/jib">Jibraeel Abdelwahhab - Team Member</Link>
             </li>
+            <li>
+              <Link to = "/alvin">Alvin To - Team Member</Link>
+            </li>
           </ul>
         </nav>
 
@@ -42,6 +46,9 @@ export default function App() {
           </Route>
           <Route path="/kyle">
             <AboutKyle />
+          </Route>
+          <Route path="/alvin">
+            <AboutAlvin />
           </Route>  
           <Route path="/">
             <Home />
