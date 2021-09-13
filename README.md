@@ -35,7 +35,7 @@ N - NodeJS
 
 ## Run in Development
 
-1. Open the CSC-648-04-Team-2 file in Visual Studio Code (or your prefered IDE)
+1. Open the CSC-648-04-Team-2 folder in Visual Studio Code (or your prefered IDE)
 
 2. Open the integrated terminal split into two terminal views
 
