@@ -14,6 +14,7 @@ function Home() {
                 <button onClick={() => window.location.replace('/kyle')}>Kyle Gilbert</button>
                 <button onClick={() => window.location.replace('/alvin')}>Alvin To</button>
                 <button onClick={() => window.location.replace('/islom')}>Islombek Abdulakhatov</button>
+                <button onClick={() => window.location.replace('/alan')}>Alan Batt</button>
                 <button onClick={() => window.location.replace('/jib')}>Jibraeel Abdelwahhab</button>
             </div>
         </div>
