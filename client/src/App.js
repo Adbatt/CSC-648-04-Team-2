@@ -11,6 +11,7 @@ import AboutKyle from "./components/AboutKyle";
 import AboutJib from "./components/AboutJib";
 import AboutAlvin from "./components/AboutAlvin";
 import AboutFaisal from "./components/AboutFaisal";
+import AboutAlan from "./components/AboutAlan";
 
 export default function App() {
   return (
@@ -35,6 +36,9 @@ export default function App() {
           </Route>
           <Route path="/alvin">
             <AboutAlvin />
+          </Route>
+          <Route path="/alan">
+            <AboutAlan />
           </Route>
           <Route path="/">
             <Home />
