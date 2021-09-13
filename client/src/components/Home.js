@@ -1,6 +1,11 @@
 import '../styles/Theme.css';
+import axios from '../helpers/axios';
 
 function Home() {
+
+    const handleTestAPI = () => {
+        axios.get('/test').then(response => console.log(response.data)).catch(err => console.log(err));
+    }
 
     return (
         <div>
@@ -16,6 +21,8 @@ function Home() {
                 <button onClick={() => window.location.replace('/islom')}>Islombek Abdulakhatov</button>
                 <button onClick={() => window.location.replace('/jib')}>Jibraeel Abdelwahhab</button>
             </div>
+
+            <button onClick={handleTestAPI}>Test API</button>
         </div>
     );
 }
