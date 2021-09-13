@@ -20,9 +20,10 @@ N - NodeJS
 
 2.  Install git if you don't have it installed already (https://git-scm.com/downloads)
         
-3. Open a new terminal and clone this repository with the following command or with ssh if you have ssh keys configured on Github
+3. Open a new terminal and clone this repository with either http or ssh if you have ssh keys configured on Github
 
         git clone https://github.com/Adbatt/CSC-648-04-Team-2.git
+        git@github.com:Adbatt/CSC-648-04-Team-2.git
         
 4. cd into the CSC-648-04-Team-2/server directory and enter the command
 
